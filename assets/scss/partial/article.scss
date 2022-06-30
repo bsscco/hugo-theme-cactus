@@ -28,14 +28,24 @@ article {
     h2 {
       &:before {
         position: absolute;
-        top: -4px;
-        left: -1rem;
+        left: -1.8rem;
         color: $color-accent-1;
         content: "#";
         font-weight: bold;
-        font-size: 1.2rem;
+        font-size: 1.8rem;
       }
     }
+
+    h3 {
+          &:before {
+            position: absolute;
+            left: -1.5rem;
+            color: $color-accent-1;
+            content: "·";
+            font-weight: bold;
+            font-size: 1.5rem;
+          }
+        }
   }
   .content img,
   .content video {
